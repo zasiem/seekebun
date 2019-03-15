@@ -1,0 +1,128 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Poppins;
+}
+
+body{
+	width: 100%;
+}
+
+@font-face{
+	font-family: 'Poppins', sans-serif;
+}
+
+@font-face{
+	font-family: 'Lobster', cursive;
+}
+
+h1,h2,h3{
+	text-align: center;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h5{
+	font-weight: bold;
+}
+
+hr{
+	width: 20%;
+	height: 2px;
+	background-color: white;
+	margin:auto;
+}
+
+/*navbar*/
+.navbar{
+	padding: 0px 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+/*home*/
+.header{
+	background-image: url("/image/header.png");
+	color: white;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	height: 550px;
+}
+
+.header h1{
+	padding-top: 170px;
+	font-size: 70px;
+	font-family: Lobster;
+}
+
+/*tentang*/
+.tentang{
+	padding: 100px 50px;
+}
+
+.tentang hr,.fitur hr,.alasan hr{
+	background-color: #60AB68;
+	width: 10%;
+}
+
+.tentang img{
+	float: right;
+}
+
+.tentang span,.fitur span, .alasan span{
+	font-family: Lobster;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+.tentang .row p{
+	padding: 100px 100px 100px 0px;
+}
+
+/*fitur*/
+
+.fitur{
+	background-color: rgba(141, 198, 63, 0.05);
+	padding: 50px 0px 0px 0px;
+}
+
+.fitur .row .card-group{
+	padding: 0px 50px;
+	background: transparent;
+}
+
+.fitur .row .card-group .card{
+	padding: 50px;
+	border: 0px;
+	text-align: center;
+	background: transparent;
+}
+
+/*alasan*/
+.alasan{
+	padding: 50px 0px 0px 0px;
+}
+
+.alasan .row .card-group{
+	padding: 0px 150px;
+	background: transparent;
+}
+
+
+.alasan .row .card-group .card{
+	padding: 50px 30px;
+	border: 0px;
+	text-align: center;
+	background: transparent;
+}
+/*footer*/

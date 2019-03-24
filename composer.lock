@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+=======
+    "content-hash": "4731429c7f25ab92eaa813447a972209",
+>>>>>>> b54446b13eb6f7d720863457fdbbba6b92d6ccc0
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -666,6 +670,7 @@
         },
         {
             "name": "league/flysystem",
+<<<<<<< HEAD
             "version": "1.0.50",
             "source": {
                 "type": "git",
@@ -680,12 +685,31 @@
             },
             "require": {
                 "ext-fileinfo": "*",
+=======
+            "version": "1.0.46",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2",
+                "reference": "f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2",
+                "shasum": ""
+            },
+            "require": {
+>>>>>>> b54446b13eb6f7d720863457fdbbba6b92d6ccc0
                 "php": ">=5.5.9"
             },
             "conflict": {
                 "league/flysystem-sftp": "<1.0.6"
             },
             "require-dev": {
+<<<<<<< HEAD
+=======
+                "ext-fileinfo": "*",
+>>>>>>> b54446b13eb6f7d720863457fdbbba6b92d6ccc0
                 "phpspec/phpspec": "^3.4",
                 "phpunit/phpunit": "^5.7.10"
             },
@@ -746,7 +770,11 @@
                 "sftp",
                 "storage"
             ],
+<<<<<<< HEAD
             "time": "2019-02-01T08:50:36+00:00"
+=======
+            "time": "2018-08-22T07:45:22+00:00"
+>>>>>>> b54446b13eb6f7d720863457fdbbba6b92d6ccc0
         },
         {
             "name": "monolog/monolog",
@@ -3018,6 +3046,7 @@
         },
         {
             "name": "nunomaduro/collision",
+<<<<<<< HEAD
             "version": "v3.0.1",
             "source": {
                 "type": "git",
@@ -3028,6 +3057,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nunomaduro/collision/zipball/af42d339fe2742295a54f6fdd42aaa6f8c4aca68",
                 "reference": "af42d339fe2742295a54f6fdd42aaa6f8c4aca68",
+=======
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nunomaduro/collision.git",
+                "reference": "b5feb0c0d92978ec7169232ce5d70d6da6b29f63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/b5feb0c0d92978ec7169232ce5d70d6da6b29f63",
+                "reference": "b5feb0c0d92978ec7169232ce5d70d6da6b29f63",
+>>>>>>> b54446b13eb6f7d720863457fdbbba6b92d6ccc0
                 "shasum": ""
             },
             "require": {
@@ -3037,10 +3078,17 @@
                 "symfony/console": "~2.8|~3.3|~4.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "laravel/framework": "5.8.*",
                 "nunomaduro/larastan": "^0.3.0",
                 "phpstan/phpstan": "^0.11",
                 "phpunit/phpunit": "~8.0"
+=======
+                "laravel/framework": "5.7.*",
+                "nunomaduro/larastan": "^0.3.0",
+                "phpstan/phpstan": "^0.10",
+                "phpunit/phpunit": "~7.3"
+>>>>>>> b54446b13eb6f7d720863457fdbbba6b92d6ccc0
             },
             "type": "library",
             "extra": {
@@ -3078,7 +3126,11 @@
                 "php",
                 "symfony"
             ],
+<<<<<<< HEAD
             "time": "2019-03-07T21:35:13+00:00"
+=======
+            "time": "2018-11-21T21:40:54+00:00"
+>>>>>>> b54446b13eb6f7d720863457fdbbba6b92d6ccc0
         },
         {
             "name": "phar-io/manifest",
